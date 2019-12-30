@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  background-color: beige;
+  background-color: #ddd;
   font-family: Playfair Display, Roboto, sans-serif;
 }
 
 .hero-image {
   background-image: url("https://kbdevstorage1.blob.core.windows.net/asset-blobs/19579_en_1");
   background-color: #cccccc;
-  height: 400px;
+  height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +18,7 @@ body {
   text-align: center;
   position: absolute;
   top: 70%;
-  left: 50%;
+  left: 25%;
   transform: translate(-50%, -50%);
   color: white;
   font-family: Playfair Display;
@@ -51,4 +51,32 @@ body {
 .topnav a.active {
   background-color: #ddd;
   color: black;
+}
+
+.firstBox {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+h2 {
+  color: #1C3B65;
+}
+
+.firstBox p {
+  font-size: 18px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: right;
+}
+.footer p {
+  padding-right: 10px;
+  font-size: 10px;
 }
