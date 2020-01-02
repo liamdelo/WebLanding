@@ -1,13 +1,14 @@
 body {
   margin: 0;
   background-color: #ddd;
-  font-family: Playfair Display, Roboto, sans-serif;
+  font-family: Playfair Display;
 }
 
+/*Titel*/
 .hero-image {
-  background-image: url("https://kbdevstorage1.blob.core.windows.net/asset-blobs/19579_en_1");
+  background-image: url("../img/water.jpg");
   background-color: #cccccc;
-  height: 300px;
+  height: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,13 +16,14 @@ body {
 }
 
 .hero-text {
-  text-align: center;
+  text-align: left;
   position: absolute;
   top: 70%;
-  left: 25%;
+  left: 35%;
   transform: translate(-50%, -50%);
   color: white;
   font-family: Playfair Display;
+  float: left;
 }
 
 .logo {
@@ -29,6 +31,8 @@ body {
   width: auto;
   float: left;
 }
+
+/*Taskbaar*/
 
 .topnav {
   overflow: hidden;
@@ -53,20 +57,76 @@ body {
   color: black;
 }
 
+/*Erste Einheit*/
 .firstBox {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding-top: 40px;
-}
-
-h2 {
+  max-width: 800px;
+  margin: 100px auto 100px;
+  height: 250px;
+  text-align: left;
+  position: relative;
   color: #1C3B65;
+  
 }
 
 .firstBox p {
-  font-size: 18px;
+  font-size:20px;
+  font-family: Playfair Display;
+
 }
 
+.SubBild {
+  float: right;
+  width: auto;
+  height: 250px;
+  border-radius: 5%;
+}
+
+.secondBox {
+  background-image: url("../img/Langlauf.jpg");
+  background-color: #cccccc;
+  height: 600px;
+  width: 80%;
+  margin: 0px auto 300px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 5%;
+
+}
+
+.secondBox-text {
+  /*text-align: right;
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Playfair Display; */
+  
+  position: relative;
+  padding-top: 10%;
+  padding-left: 55%;
+  padding-right: 1%;
+  width: 400px;
+  color: white;
+  overflow: hidden;
+  float: right;
+}
+
+
+
+
+
+.thirdBox {
+  background-color: beige;
+  height: 400px;
+  width: 80%;
+  margin: 100px auto 100px;
+  position: relative;
+}
+
+/*Fusszeile*/
 .footer {
   position: fixed;
   left: 0;
@@ -76,6 +136,7 @@ h2 {
   color: white;
   text-align: right;
 }
+
 .footer p {
   padding-right: 10px;
   font-size: 10px;
