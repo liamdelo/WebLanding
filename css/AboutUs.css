@@ -6,7 +6,7 @@ body {
 
 /*Titel*/
 .hero-image {
-  background-image: url("../img/water.jpg");
+  background-image: url("../img/WinterRiver.jpg");
   background-color: #cccccc;
   height: 400px;
   background-position: center;
@@ -18,9 +18,8 @@ body {
 .hero-text {
   text-align: left;
   position: absolute;
-  top: 70%;
-  left: 35%;
-  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 40px;
   color: white;
   font-family: Playfair Display;
   float: left;
@@ -57,65 +56,57 @@ body {
   color: black;
 }
 
-/*Erste Einheit*/
 .firstBox {
-  max-width: 800px;
-  margin: 150px auto 150px;
-  height: 250px;
-  text-align: left;
-  position: relative;
-  color: #1C3B65;
-  
-}
-
-.firstBox p {
-  font-size:20px;
-  font-family: Playfair Display;
-
-}
-
-.SubBild {
-  float: right;
-  width: auto;
-  height: 250px;
-  border-radius: 5%;
-}
-
-.secondBox {
-  background-image: url("../img/Langlauf.jpg");
-  background-color: #cccccc;
-  height: 600px;
+  background-color: white;
+  margin: 80px auto 100px;
   width: 1000px;
-  margin: 0px auto 100px;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  border-radius: 5%;
-
+  height: 1400px;
+  padding: 40px 100px;
+  border-radius: 100px;
+  box-sizing: border-box;
+}
+.firstBox p {
+  color: #1C3B65;
 }
 
-.secondBox-text {
-  position: absolute;
-  top: 35%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-  
-  padding-right: 40px;
-  padding-left: 40px;
-  padding-bottom: 20px;
-  border-radius: 500px;
-  position: relative;
+h1 {
+  color: #1C3B65;
+  font-size: 30px
+}
+
+h2 {
+  margin-top: 100px;
+  color: #1C3B65;
+  font-size: 30px
+}
+
+.SubBildOne {
   width: 400px;
   height: auto;
-  color: #1C3B65;
-  overflow: hidden;
-  background-color: white;
-  text-align: center;
+  float: left;
+  margin-right: 20px;
+  border-radius: 20px;
 }
+
+.HarvyBild{
+  float: left;
+  width: auto;
+  height: 400px;
+
+}
+
+.MikeBild{
+  float: right;
+  width: auto;
+  height: 400px;
+}
+
+
 .button {
+  margin-top: 40px; 
+  margin-bottom: 20px;
   height: auto;
-  width: 100px;
+  width: 200px;
   font-size: 15px;
   border-radius: 20px;
   border: 5px;
@@ -123,12 +114,11 @@ body {
 }
 .button a {
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   font-family: Playfair Display;
+  color: #1C3B65;
 }
 
-
-/*Fusszeile*/
 .footer {
   position: relative;
   height: 30px;
