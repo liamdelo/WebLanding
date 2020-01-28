@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: white;
-  font-family: Playfair Display;
+  font-family: Abel;
 }
 
 /*Titel*/
@@ -19,10 +19,9 @@ body {
 .hero-text {
   text-align: left;
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 40px;
   color: white;
-  font-family: Playfair Display;
   float: left;
 }
 
@@ -46,7 +45,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .topnav a:hover {
@@ -75,53 +74,21 @@ body {
 
 h1 {
   color: #1C3B65;
-  font-size: 30px
+  font-size: 30px;
 }
 
 h2 {
   margin-top: 100px;
   color: #1C3B65;
-  font-size: 30px
+  font-size: 30px;
 }
 
-.SubBildOne {
-  width: 400px;
-  height: auto;
-  float: left;
-  margin-right: 20px;
-  border-radius: 20px;
-}
-
-.HarvyBild{
-  float: left;
-  width: auto;
+.Maps {
   height: 400px;
-
-}
-
-.MikeBild{
-  float: right;
-  width: auto;
-  height: 400px;
-}
-
-
-.button {
-  margin-top: 40px; 
-  margin-bottom: 20px;
-  height: auto;
-  width: 200px;
-  font-size: 15px;
-  border-radius: 20px;
-  border: 5px;
-  font-weight: bold;
-}
-.button a {
-  text-decoration: none;
-  font-size: 20px;
-  font-family: Playfair Display;
-  color: #1C3B65;
-}
+  width: 600px;
+  margin: 20px auto 50px;
+  border: 1px;
+ }
 
 .footer {
   position: relative;
