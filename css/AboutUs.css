@@ -62,7 +62,7 @@ body {
   background-color: white;
   margin: 80px auto 100px;
   width: 1000px;
-  height: 1300px;
+  height: 1700px;
   padding: 40px 100px;
   border-radius: 100px;
   box-sizing: border-box;
@@ -83,12 +83,9 @@ h2 {
   font-size: 40px;
 }
 
-.SubBildOne {
-  width: 400px;
-  height: auto;
-  float: left;
-  margin-right: 20px;
-  border-radius: 20px;
+.video{
+height: 400px;
+width: 800px;
 }
 
 .HarvyBild{
